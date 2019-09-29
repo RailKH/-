@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БИБОСС</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <!--Header-->
+        <header class="section-inner">
+            <img src="./img/logo.png" alt="logo">
+        </header>
+        <!--Header-->
+        <div class="content section-inner">
+            <!--section__Donuts-->
+            <div class="Donuts-first">
+                <h4>Поставь ссылку на БИБОСС</h4>
+                <h3>Заработай баллы!</h3>
+                <a href="#">Франшиза Dunkin’ Donuts на БИБОСС</a>
+            </div>
+            <div class="Donuts-second">
+                <img src="./img/notebook.png" alt="">
+            </div>
+            <div class="Donuts-third section-outer">
+                <p>БИБОСС даёт возможность получить бесплатные баллы – нужно лишь разместить на сайте компании любую из
+                    ссылок:</p>
+                <ul>
+                    <li>Текстовая ссылка «Франшиза <span>[Название]</span> на БИБОСС»</li>
+                    <li>Текстовая ссылка «Наша франшиза на БИБОСС»</li>
+                    <li>Кнопка “Нравится франшиза” + счетчик популярности</li>
+                </ul>
+            </div>
+            <!--section__Donuts-->
+
+            <!--section__Points-->
+            <div class="Points section-outer">
+                <div class="Points-title">
+                    <p>Зачем нужны <a href="#">баллы</a>?</p>
+                    <h4>Больше баллов — выше позиция в выдаче категории</h4>
+                </div>
+                <div class="Points-content">
+                    <div class="Points-content_left">
+                        <h4>Правила размещения ссылки</h5>
+                            <ul>
+                                <li>Ссылка должна быть индексируемой (без тегов &ltnoindex&gt; и &ltnofollow&gt;)</li>
+                                <li>Ссылка должна быть читаемой, не скрытой от глаз посетителя сайта,</li>
+                                <li>Ссылка должна быть размещена на странице сайта, посвящённой франчайзингу,</li>
+                                <li>При размещении ссылок на другие порталы о франчайзинге – баллы обнуляются.</li>
+                            </ul>
+                    </div>
+                    <div class="Points-content_right">
+                        <h4>Стоимость ссылки</h5>
+                            <p class="suptitle">200 баллов</p>
+                            <p>ТиЦ Вашего сайта от 10</p>
+                            <p class="suptitle">50 баллов</p>
+                            <p>ТиЦ Вашего сайта от 0 до 10</p>
+                    </div>
+                </div>
+            </div>
+            <!--section__Points-->
+
+            <!--section__Link-->
+            <div class="Link section-outer">
+                <p class="title">Получить ссылку</p>
+                <form action="#">
+                    <p><span class="label">Ваше имя</span><input
+                            onblur="validateNonEmpty(this, document.getElementById('name_help'))" type="text"
+                            name="name" placeholder="Представьтесь, пожалуйста"></p>
+                    <span id="name_help" class="help"></span>
+                    <p><span class="label">Номер телефона</span><input
+                            onblur="validateNonEmpty(this, document.getElementById('phone_help'))" id="phone"
+                            type="text" name="phone" placeholder="Для начисления баллов и связи с Вами" maxlength="15">
+                    </p>
+                    <span id="phone_help" class="help"></span>
+                    <p><span class="label">Название франшизы</span><input
+                            onblur="validateNonEmpty(this, document.getElementById('franchise_help'))" type="text"
+                            name="franchise" placeholder="Например, Subway"> </p>
+                    <span id="franchise_help" class="help"></span>
+                    <p><span class="label"></span><input type="submit" value="Получить ссылку"></p>
+                </form>
+            </div>
+            <div class="Link_sub-text section-outer">
+                <p><strong>Это еще не все...</strong> Вы можете заработать дополнительные баллы, если разместите на своём сайте новость, интервью или статью БИБОСС о Вашей компании с активной ссылкой! 50 баллов за активную ссылку на новость!</p>
+            </div>
+            <!--section__Link-->
+        </div>
+        <!--Footer-->
+        <!--Footer-->
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

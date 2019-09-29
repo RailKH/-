@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.section-inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.section-outer {
+  width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.main {
+  width: 1200px;
+  background: url(./img/bg-main.png) no-repeat center center;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
+}
+
+.Donuts-first {
+  background: url(./img/background_first.png) no-repeat center center;
+  height: 420px;
+  text-align: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Donuts-first h4 {
+  font-size: 30px;
+  padding-top: 55px;
+}
+
+.Donuts-first h3 {
+  font-size: 50px;
+  margin-top: -150px;
+}
+
+.Donuts-first a {
+  text-decoration: underline;
+  z-index: 5;
+}
+
+.Donuts-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 260px;
+  margin-bottom: 10px;
+}
+
+.Donuts-second img {
+  position: absolute;
+  top: -180px;
+}
+
+.Donuts-third ul {
+  margin-top: 25px;
+}
+
+.Donuts-third ul span {
+  color: #9c9a9a;
+}
+
+.Donuts-third ul li {
+  margin-top: 5px;
+}
+
+.Points {
+  padding-top: 70px;
+}
+
+.Points h4 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.Points-title {
+  text-align: center;
+}
+
+.Points-title h4 {
+  padding-top: 15px;
+}
+
+.Points-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.Points-content_left {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-right: 20px;
+}
+
+.Points-content_left li {
+  margin-bottom: 20px;
+}
+
+.Points-content_right {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 15px;
+}
+
+.Points-content_right .suptitle {
+  font-size: 40px;
+  color: #3dac3d;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Points-content_right .suptitle ~ .suptitle {
+  margin-top: 20px;
+}
+
+.Link {
+  background-color: #fff4b3;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Link .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Link form {
+  width: 520px;
+  margin: 0 auto;
+}
+
+.Link form p {
+  margin-top: 15px;
+}
+
+.Link form .label {
+  display: inline-block;
+  width: 160px;
+  margin-right: 10px;
+}
+
+.Link form input[type="text"] {
+  width: 350px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #a6acb2;
+  outline: none;
+}
+
+.Link form input[type="submit"] {
+  background-color: #b6d88a;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  width: 150px;
+  height: 40px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Link form input[type="submit"]:hover {
+  background-color: #0d972b;
+}
+
+.Link form input[type="text"]:focus {
+  -webkit-box-shadow: 0 0 5px #0d972b;
+          box-shadow: 0 0 5px #0d972b;
+}
+
+.Link form .help {
+  padding-left: 170px;
+  padding-top: 5px;
+  color: #ff0000;
+  display: block;
+  font-size: 14px;
+}
+
+.Link_sub-text {
+  line-height: 1.5em;
+  margin-top: 30px;
+  height: 120px;
+}
+/*# sourceMappingURL=style.css.map */
